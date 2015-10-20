@@ -1,18 +1,44 @@
-# 自我介绍
+# 张逸霄的自我介绍
+## Qpython
+我现在觉得Qpython是一个很好用的App.
+如果你要很好地使用它，你需要：
+* 一部Android手机
+* 一个蓝牙键盘
+* 一颗充满热情的心
+
+*** 
+
+## 关于自己最近的学习现状
+* Python属于囫囵吞枣阶段，现在看到了循环和判断。当然之后还打算看一遍，因为实在是知识浅薄。
+* 一直停留在指针那里没时间去看（真是遗憾）
+
+> 知之为知之，不知为不知，是知也。
+
+*** 
+
+## 代码实例
+
+    import math
+    def main():
+        print("This is a grogram designed to get the solution to qurladratic.")
+        a, b, c =eval(input("Please enter the coeffidents: a, b, c "))
+        delta= b * b - 4 * a * c
+        if delta>= 0:
+            if a != 0:
+                discroot = math.sqrt(delta)
+                root1 = ( - b + discroot ) / ( 2 * a )
+                root2 = ( - b - discroot ) / ( 2 * a )
+                print("Solution: " , root1 , root2 )
+            else:
+                root = ( - c / b )
+                print ( "Solution: " , root )
+        else:
+            print("There is no solution.")
+
+    main()
+
 ***
-### 时间：2015.10.19
 
-大家好 我是吕文玲 我来自信软学院（大型主机方向） 很高兴可以来到python组学习
+## What's More? 
 
-我是通过廖雪峰的教程[http://www.liaoxuefeng.com]来学习git
-
-现在我已经基本掌握了git的用法 并能将文件push到github的远程库中
-
-众所周知  github是全球最大的**同性**交友网站（开个玩笑） GitHub是一个共享虚拟主机服务，用于存放使用Git版本控制的软件代码和内容项目。拥有丰富的代码供我们学习和使用。
-***
-#### 下面用python写一个helloworld程序
-```
-print('hello, world')
-\\python的语法还是很简单的额 最起码比现在学的c和java简单 哈哈
-```
-ok 今天就介绍的到这里 谢谢
+* 强烈推荐大家去做MBTI心理测试，很实用的测试。
