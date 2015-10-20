@@ -1,44 +1,29 @@
-# 张逸霄的自我介绍
-## Qpython
-我现在觉得Qpython是一个很好用的App.
-如果你要很好地使用它，你需要：
-* 一部Android手机
-* 一个蓝牙键盘
-* 一颗充满热情的心
+# Markdown
 
-*** 
+Markdown是一种轻量级的标记语言，它可以通过简单地标记来让普通文本内容具有一定格式，且原文的可读性并不会受太大影响。
 
-## 关于自己最近的学习现状
-* Python属于囫囵吞枣阶段，现在看到了循环和判断。当然之后还打算看一遍，因为实在是知识浅薄。
-* 一直停留在指针那里没时间去看（真是遗憾）
+因此，这个语言在Github界也是非常的重要。这里所有的评论、Issue与Readme帮助文档都是用Markdown语法写的。
 
-> 知之为知之，不知为不知，是知也。
+所以，我们需要学习Markdown
 
-*** 
+# 任务描述
 
-## 代码实例
+1. （准备）学习Git与Github的使用
 
-    import math
-    def main():
-        print("This is a grogram designed to get the solution to qurladratic.")
-        a, b, c =eval(input("Please enter the coeffidents: a, b, c "))
-        delta= b * b - 4 * a * c
-        if delta>= 0:
-            if a != 0:
-                discroot = math.sqrt(delta)
-                root1 = ( - b + discroot ) / ( 2 * a )
-                root2 = ( - b - discroot ) / ( 2 * a )
-                print("Solution: " , root1 , root2 )
-            else:
-                root = ( - c / b )
-                print ( "Solution: " , root )
-        else:
-            print("There is no solution.")
+2. 学习Markdown（就一个网页，应该很快就能看完）
 
-    main()
+3. Fork此Repo，并将Fork的仓库clone到自己的本地
 
-***
+4. 修改此README.md，你可以写任何东西。
 
-## What's More? 
+5. 将你的本地仓库Commit，Push到Github，然后发起Pull request
 
-* 强烈推荐大家去做MBTI心理测试，很实用的测试。
+# 要求
+
+1. 内容是不限的。什么都行。欢迎上图。
+
+2. 如果你不知道写什么，那么写你学习Git的过程吧。。。
+
+3. 虽然内容不限，但应该尽可能的多使用Markdown的标记语法。排版要整齐。然后不要用HTML的标签
+
+4. 推荐使用Sublime Text 3编辑器。
